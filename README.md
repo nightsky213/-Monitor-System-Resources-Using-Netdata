@@ -5,11 +5,11 @@ Deploy Netdata using Docker to monitor system and application performance in rea
 
 ## 🛠️ Tools Used
 - **Netdata** (open-source monitoring platform)
-- **Docker**
+- **Docker** 
 
 ## 🚀 Setup Instructions
 
-1. **Run Netdata in Docker**:
+1. **Run Netdata in Docker**(Make sure Docker is installed):
    ```bash
    docker run -d --name=netdata -p 19999:19999 --cap-add SYS_PTRACE \
      -v netdataconfig:/etc/netdata \
